@@ -42,3 +42,13 @@ def get_primes(start, end):
         if is_prime(i):
             nums.append(i)
     return nums
+#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+def get_primes_and_composites(frm, to):
+    primes = []
+    composites = []
+    for i in range(frm, to + 1):
+        if is_prime(i):
+            primes.append(i)
+        else:
+            composites.append(i)
+    return primes, composites        
