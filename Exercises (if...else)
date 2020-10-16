@@ -1,0 +1,35 @@
+find highest of two numbers. - Done
+find highest of three numbers. - Done
+check whether a number is negative, positive or zero. - Done
+check whether a number is divisible by 5 and 11 or not. - Done
+check whether a number is even or odd. - Done
+check whether a year is leap year or not.
+check whether a character is alphabet or not. - Done
+input any alphabet and check whether it is vowel or consonant.
+input any character and check whether it is alphabet, digit or special character.
+check whether a character is uppercase or lowercase alphabet. - Done
+input week number and print week day. - Done
+input month number and print number of days in that month.
+count total number of notes in given amount.
+input angles of a triangle and check whether triangle is valid or not.
+input all sides of a triangle and check whether triangle is valid or not.
+check whether the triangle is equilateral, isosceles or scalene triangle.
+find all roots of a quadratic equation.
+calculate profit or loss.
+input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer. Calculate percentage and grade according to following:
+  Percentage >= 90% : Grade A
+  Percentage >= 80% : Grade B
+  Percentage >= 70% : Grade C
+  Percentage >= 60% : Grade D
+  Percentage >= 40% : Grade E
+  Percentage < 40% : Grade F
+input basic salary of an employee and calculate its Gross salary according to following:
+  Basic Salary <= 10000 : HRA = 20%, DA = 80%
+  Basic Salary <= 20000 : HRA = 25%, DA = 90%
+  Basic Salary > 20000 : HRA = 30%, DA = 95%
+input electricity unit charges and calculate total electricity bill according to the given condition:
+  For first 50 units $0.50/unit
+  For next 100 units $0.75/unit
+  For next 100 units $1.20/unit
+  For unit above 250 $1.50/unit
+  An additional surcharge of 20% is added to the bill
