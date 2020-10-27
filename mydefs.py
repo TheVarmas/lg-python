@@ -52,4 +52,13 @@ def get_primes_and_composites(frm, to):
         else:
             composites.append(i)
     return primes, composites
-
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+def foo(*args):
+    return type(args)
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+def bar(**kwargs):
+    print(kwargs)
+    return type(kwargs)
+#&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+def baz(*args, **kwargs):
+    print(args, kwargs)    

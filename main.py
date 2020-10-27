@@ -1,5 +1,4 @@
-from mydefs import get_primes_and_composites, ask_for_num
-
-num1 = ask_for_num()
-num2 = ask_for_num('Enter another one: ')
-print(get_primes_and_composites(num1, num2))
+from mydefs import foo, bar, baz,get_primes_and_composites,log_fiddle
+#print(foo(1, 2, 3, 6, 'beeba', 'dooba', True))
+#print(bar('kukka', b=1, c=True, d=1.5))
+baz(1, 1.5, a=22, b="Kodi")
