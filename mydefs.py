@@ -51,4 +51,5 @@ def get_primes_and_composites(frm, to):
             primes.append(i)
         else:
             composites.append(i)
-    return primes, composites        
+    return primes, composites
+
