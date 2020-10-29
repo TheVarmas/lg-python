@@ -321,3 +321,4 @@ from mydefs import is_pali
 string = input('Enter a sentence: ')
 
 print(is_pali(string))
+###########################################
