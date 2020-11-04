@@ -1,12 +1,16 @@
-cars = {'grey':['car1'], 'blue':['car2', 'car3']}
+from mydefs import ask_for_num
 
-color = input('Enter a color: ')
+a = ask_for_num('Enter a number from 1 - 5: ')
 
-car_values = cars.get(color.lower(), []) # cars[color]
-
-if len(car_values) == 1:
-    print(f"{car_values} is {color}")
-elif len(car_values) > 1:
-    print(f"{car_values} are {color}")
+if a == 1:
+    print('Happy birthday Nanna!')
+elif a == 2:
+    print('LoveError: I love you too much')
+elif a == 3:
+    print('You are the best!')
+elif a == 4:
+    print('Thank you for teaching me Python!')
+elif a == 5:
+     print('Thank you for telling me Lemonade learning stories!') 
 else:
-    print(f"No cars found with the color {color}")
+    print('Enter a number from 1 - 5!')     
