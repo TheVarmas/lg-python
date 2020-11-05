@@ -1,2 +1,3 @@
 language = "python3"
 run = "python3 main.py"
+onBoot="echo Be patient Babbee. I'm booting up..."
