@@ -61,4 +61,5 @@ def bar(**kwargs):
     return type(kwargs)
 #&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 def baz(*args, **kwargs):
-    print(args, kwargs)    
+    print(args, kwargs)
+     
