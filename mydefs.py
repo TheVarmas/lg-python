@@ -63,3 +63,5 @@ def bar(**kwargs):
 def baz(*args, **kwargs):
     print(args, kwargs)
      
+    print(args, kwargs)    
+#==================================================

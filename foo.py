@@ -1,9 +1,30 @@
-from mydefs import get_primes_and_composites
-
-def foo(*args, **kwargs):
-    print(args)
-    print(kwargs)
-    #print(args[0] + args[4] + args[2])
-foo(1, 2, 3, 4, 5, foo=1, bar=3)
-
-print(get_primes_and_composites(frm=1, to=10))
+a = '''Foo is a meta syntactic variable. Bar follows Foo.
+Foo is a meta syntactic variable. Bar follows Foo.
+ASD is a meta syntactic variable. Bar follows Foo.
+DEF is a meta syntactic variable. Bar follows Foo.
+ASDS is a meta syntactic variable. Bar follows Foo.
+Foo is a meta syntactic variable. Bar follows Foo.
+Foo is a meta syntactic variable. Bar follows Foo.
+Foo is a meta syntactic variable. Bar follows Foo.
+Foo is a meta syntactic variable. Bar follows Foo.
+Foo is a meta syntactic variable. Bar follows Foo.
+Foo is a meta syntactic variable. Bar follows Foo.
+Foo is a meta syntactic variable. Bar follows Foo.
+Foo is a meta syntactic variable. Bar follows Foo.
+Foo is a meta syntactic variable. Bar follows Foo.
+Foo is a meta syntactic variable. Bar follows Foo.
+Foo is a meta syntactic variable. Bar follows Foo.
+Foo is a meta syntactic variable. Bar follows Foo.
+Foo is a meta syntactic variable. Bar follows Foo.
+Foo is a meta syntactic variable. Bar follows Foo.
+Foo is a meta syntactic variable. Bar follows Foo.
+Foo is a meta syntactic variable. Bar follows Foo.
+Foo is a meta syntactic variable. Bar follows Foo.
+Foo is a meta syntactic variable. Bar follows Foo.
+Foo is a meta syntactic variable. Bar follows Foo.
+Foo is a meta syntactic variable. Bar follows Foo.
+'''
+print(a)
+# a = a.replace('Bar', 'Baz').replace('Foo', 'Bar').upper()
+a = a.replace('Foo', 'foo')
+print(a)

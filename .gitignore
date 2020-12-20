@@ -1,7 +1,3 @@
-*.pyc
-poetry.lock
-pyproject.toml
-
 # VS Code
 .vscode/
 
