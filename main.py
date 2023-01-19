@@ -6,7 +6,7 @@ choices = ['Rock', 'paper', 'scissors']
 computer_answer = random.randint(1,3)
 
 print("Welcome to rock, paper, scissors!")
-print(choices[computer_answer - 1])
+#print(choices[computer_answer - 1])
 for i in range(len(choices)):
     print(f'{options[i]}. {choices[i]}')
 
